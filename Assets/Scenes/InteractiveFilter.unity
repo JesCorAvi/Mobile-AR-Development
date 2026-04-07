@@ -729,26 +729,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlassesGroup
       objectReference: {fileID: 0}
-    - target: {fileID: 2195756901435397612, guid: 0e5347c0205c79241acd169412967968, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2709511573111266559, guid: 0e5347c0205c79241acd169412967968, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4511166585455836458, guid: 0e5347c0205c79241acd169412967968, type: 3}
-      propertyPath: m_TagString
-      value: cat
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037625055328276559, guid: 0e5347c0205c79241acd169412967968, type: 3}
-      propertyPath: m_TagString
-      value: stars
-      objectReference: {fileID: 0}
-    - target: {fileID: 7754226558133887472, guid: 0e5347c0205c79241acd169412967968, type: 3}
-      propertyPath: m_TagString
-      value: monocle
-      objectReference: {fileID: 0}
     - target: {fileID: 8112855544065317044, guid: 0e5347c0205c79241acd169412967968, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -787,14 +767,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8112855544065317044, guid: 0e5347c0205c79241acd169412967968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8114492057429983269, guid: 0e5347c0205c79241acd169412967968, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838972615723102618, guid: 0e5347c0205c79241acd169412967968, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
