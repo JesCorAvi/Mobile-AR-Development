@@ -240,6 +240,17 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!114 &510193379 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6206005521247379538, guid: ccc0c063a6b6cb143b63b64a01a0a7b7, type: 3}
+  m_PrefabInstance: {fileID: 683885218}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &683885218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -537,9 +548,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"glasses1Button","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"glasses2Button","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"glasses3Button","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1251091195}
+    - {fileID: 1630694775}
+    - {fileID: 510193379}
 --- !u!4 &1118988361
 Transform:
   m_ObjectHideFlags: 0
@@ -618,6 +633,17 @@ Transform:
 --- !u!114 &1251091195 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6206005521602948446, guid: ccc0c063a6b6cb143b63b64a01a0a7b7, type: 3}
+  m_PrefabInstance: {fileID: 683885218}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1630694775 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6206005522308777284, guid: ccc0c063a6b6cb143b63b64a01a0a7b7, type: 3}
   m_PrefabInstance: {fileID: 683885218}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -707,6 +733,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2709511573111266559, guid: 0e5347c0205c79241acd169412967968, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511166585455836458, guid: 0e5347c0205c79241acd169412967968, type: 3}
+      propertyPath: m_TagString
+      value: cat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037625055328276559, guid: 0e5347c0205c79241acd169412967968, type: 3}
+      propertyPath: m_TagString
+      value: stars
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754226558133887472, guid: 0e5347c0205c79241acd169412967968, type: 3}
+      propertyPath: m_TagString
+      value: monocle
+      objectReference: {fileID: 0}
     - target: {fileID: 8112855544065317044, guid: 0e5347c0205c79241acd169412967968, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -745,6 +787,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8112855544065317044, guid: 0e5347c0205c79241acd169412967968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8114492057429983269, guid: 0e5347c0205c79241acd169412967968, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838972615723102618, guid: 0e5347c0205c79241acd169412967968, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
